@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Fahd TRIGUI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fahd TRIGUI</h1>
+        <p>Diplômé en Big Data & Analyse de Données</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="parcours.html">Parcours</a>
+        <a href="competences.html">Compétences</a>
+        <a href="experiences.html">Expériences</a>
+        <a href="projets.html">Projets</a>
+        <a href="passions.html">Passions</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Contactez-moi</h2>
+            <p>N'hésitez pas à me contacter pour toute question, proposition de collaboration ou opportunité professionnelle.</p>
+
+            <div class="contact-info" style="margin-bottom: 30px;">
+                <h3>Informations de contact</h3>
+                <p><strong>Email :</strong> <a href="mailto:triguifahd@gmail.com">triguifahd@gmail.com</a></p>
+                <p><strong>Téléphone :</strong> +216 56 129 988</p>
+                <p><strong>Localisation :</strong> Sfax, Tunisie</p>
+                <p><strong>LinkedIn :</strong> <a href="https://linkedin.com/in/fahd-trigui-512799252" target="_blank">linkedin.com/in/fahd-trigui-512799252</a></p>
+            </div>
+
+            <h3>Formulaire de contact</h3>
+            <form id="contactForm" action="mailto:triguifahd@gmail.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="nom">Nom complet *</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telephone">Téléphone</label>
+                    <input type="tel" id="telephone" name="telephone">
+                </div>
+
+                <div class="form-group">
+                    <label for="sujet">Sujet *</label>
+                    <select id="sujet" name="sujet" required>
+                        <option value="">-- Sélectionnez un sujet --</option>
+                        <option value="collaboration">Proposition de collaboration</option>
+                        <option value="emploi">Opportunité d'emploi</option>
+                        <option value="stage">Offre de stage</option>
+                        <option value="projet">Discussion de projet</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <button type="submit" class="btn">Envoyer le message</button>
+            </form>
+        </article>
+
+        <article style="margin-top: 40px;">
+            <h2>Témoignage sur l'IIT</h2>
+            <p>
+                Mon expérience à l'Institut Supérieur d'Informatique et Multimédia (ISIMS) de Sfax a été très enrichissante. 
+                La formation en Big Data et Analyse de Données m'a permis d'acquérir des compétences solides en intelligence artificielle, 
+                machine learning et développement web.
+            </p>
+            <p>
+                L'IIT offre un environnement d'apprentissage stimulant avec des enseignants qualifiés et des projets pratiques qui 
+                préparent bien les étudiants au marché du travail. Les infrastructures modernes et les laboratoires bien équipés 
+                permettent de mettre en pratique les connaissances théoriques.
+            </p>
+            <p>
+                Les activités extra-scolaires, notamment à travers les clubs comme le Microsoft Tech Club, offrent des opportunités 
+                précieuses pour développer ses compétences techniques et son réseau professionnel. Je recommande vivement l'IIT 
+                aux étudiants passionnés par l'informatique et les technologies de l'information.
+            </p>
+            <p>
+                <strong>Note :</strong> Je donne à l'IIT la note de <strong>8.5/10</strong> pour la qualité de la formation, 
+                l'encadrement et les opportunités offertes.
+            </p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fahd TRIGUI. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
